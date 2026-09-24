@@ -68,17 +68,14 @@
   </style>
 
   <!-- Crisp 客服脚本 -->
-  <script type="text/javascript">
-    window.$crisp = [];
-    window.CRISP_WEBSITE_ID = "049b24fe-44a0-45ca-806c-b7bc37af56d1";
-    (function () {
-      var d = document;
-      var s = d.createElement("script");
-      s.src = "https://client.crisp.chat/l.js";
-      s.async = 1;
-      d.getElementsByTagName("head")[0].appendChild(s);
-    })();
-  </script>
+ <script src="https://kef.wow0.de/widget/customer-service.js?v=1"></script>
+<script>
+  CustomerService.init({
+    apiUrl: 'https://kef.wow0.de',
+    accent: '#0a66c2',
+    position: 'right',
+  });
+</script>
 
   <!-- 业务逻辑打包 JS 文件 -->
   <script defer="defer" src="static/js/chunk-vendors.39a7dda0.js"></script>
